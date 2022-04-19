@@ -1,0 +1,73 @@
+/*index*/
+
+
+.img-carrusel {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 40vh;
+}
+
+.color-textoca h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 11%;
+    text-align: center;
+}
+
+.my-carrusel {
+    box-sizing: unset;
+}
+
+.titulolugare {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.espacio .row {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.contenido {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pie {
+    background-color: aqua;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-image: linear-gradient(to bottom right, rgb(34, 36, 18), rgb(0, 0, 0), rgb(40, 45, 22), rgb(0, 0, 0));
+}
+
+.pie .iconos {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-collapse: collapse;
+    font-size: 25px;
+    color: white;
+}
+
+
+.escalar:hover {
+    transform: scale(2);
+    transition: 1s ease-in-out;
+}
+
+.escalar {
+    transform: scale(1);
+    transition: 1s ease-in-out;
+}
